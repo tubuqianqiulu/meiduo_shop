@@ -160,6 +160,11 @@ LOGGING = {
     }
 }
 
+REST_FRAMEWORK = {
+    # 异常处理
+    'EXCEPTION_HANDLER': 'meiduo_shop.utils.exceptions.exception_handler',
+}
+
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
